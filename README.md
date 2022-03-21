@@ -24,7 +24,7 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+A simple project created under MVC architecture && Mysql && NestJs that manages user and will be soon provide token for connected user
 
 ## Installation
 
