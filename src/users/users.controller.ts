@@ -50,7 +50,7 @@ export class UsersController {
       }
       const user = <usersDto>body;
       const userAdded = await this.usersService.add(user);
-      res.status(HttpStatus.CREATED).json({ data: userAdded });
+      res.status(HttpStatus.OK).json({ data: userAdded });
     } catch (err) {
       throw err;
     }
