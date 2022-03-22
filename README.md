@@ -7,7 +7,7 @@
 
 ## Description
 
-A simple project created under MVC architecture && Mysql && NestJs that manages user and will be soon provide token for connected user
+A simple project created under MVC architecture && Mysql && NestJs that manages user and provides token for connected user
 
 ## Installation
 
