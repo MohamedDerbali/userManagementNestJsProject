@@ -33,9 +33,7 @@ export class AppController {
   }
   @Get('/favicon.ico')
   renderFavicon(@Req() req: Request, @Res() res: Response) {
-    {
-      res.status(204);
-    }
+    res.status(204);
   }
   @UseGuards(JwtAuthGuard)
   @Get('user-info')
