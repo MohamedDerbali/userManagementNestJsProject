@@ -6,6 +6,7 @@ import {
   UseGuards,
   Request,
   Post,
+  Req,
   UnauthorizedException,
 } from '@nestjs/common';
 import { AppService } from './app.service';
@@ -30,7 +31,12 @@ export class AppController {
       throw new UnauthorizedException();
     }
   }
-
+  @Get('/favicon.ico')
+  renderFavicon(@Req() req: Request, @Res() res: Response) {
+    {
+      res.status(204);
+    }
+  }
   @UseGuards(JwtAuthGuard)
   @Get('user-info')
   getUserInfo(@Request() req) {
