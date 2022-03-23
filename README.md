@@ -40,10 +40,8 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 
+Requests:
 
-## Test
-
-```bash
 # POST [Create Account]
 
 https://user-management-mohamed.herokuapp.com/users
