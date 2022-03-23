@@ -40,3 +40,30 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 
+
+## Requests
+
+```bash
+# POST [Create Account]
+
+https://user-management-mohamed.herokuapp.com/users
+{
+  "firstName":"firstName",
+  "lastName":"lastName",
+  "isActive":true, 
+  "email":"user@gmail.com", 
+  "password":123
+}
+# POST [Login]
+
+https://user-management-mohamed.herokuapp.com/login
+{
+  "email":"user@gmail.com", 
+  "password":123
+}
+
+# GET [User From Token]
+https://user-management-mohamed.herokuapp.com/users/user-info
+
+# GET [User List]
+https://user-management-mohamed.herokuapp.com/users/
