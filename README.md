@@ -41,7 +41,7 @@ $ npm run test:e2e
 $ npm run test:cov
 
 
-## Requests
+## Test
 
 ```bash
 # POST [Create Account]
